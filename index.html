@@ -6,15 +6,27 @@ layout: default
 
   <h1 class="page-heading">Experiments</h1>
 
-  <ul class="post-list">
+  <!-- <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
+    {% endfor %}
+  </ul> -->
+
+
+  {% assign pages = site.experiments | sort:"weight"  %}
+  <ul>
+    {% for p in pages %}
+    <li>
+      <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | prepend: site.baseurl }}">
+        {{ p.title }}
+      </a>
+    </li>
     {% endfor %}
   </ul>
 
