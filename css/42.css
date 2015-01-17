@@ -3,6 +3,8 @@ input.largeNumberTextBox
   font-size:5em;
   border:0px;
   font-weight:800;
+  display:inline-block;
+  margin-top: -10px;  
 }
 
 
@@ -12,5 +14,5 @@ input.largeNumberTextBox
   font-weight:200;
   color:#3366FF;
   text-transform: uppercase;
-  width: 30%;
+  display:inline-block;
 }

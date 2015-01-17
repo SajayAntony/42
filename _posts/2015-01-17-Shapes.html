@@ -8,9 +8,9 @@ reference: http://www.storminthecastle.com/2013/07/24/how-you-can-draw-regular-p
 
 <fieldset>
   <legend>Options</legend>
-  <span class="largeLabel">Sides: </span> <input data-bind="value: numberOfSides, valueUpdate: 'afterkeydown'" class="largeNumberTextBox"
-        style="max-width:300px; text-align:right;"  maxlength="2"/>
-<div style="margin: 10px" data-bind="slider: numberOfSides, sliderOptions: {min: 0, max: 20, range: 'min', step: 1}"></div>
+  <span class="largeLabel" >Sides: </span> <input data-bind="value: numberOfSides, valueUpdate: 'afterkeydown'" class="largeNumberTextBox"
+        style="width:150px; text-align:right;"  maxlength="2"/>
+<div  data-bind="slider: numberOfSides, sliderOptions: {min: 0, max: 20, range: 'min', step: 1}"></div>
 </fieldset>
 
 <canvas id="canvas" width="300" height="300"></canvas>
