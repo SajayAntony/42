@@ -4,3 +4,13 @@ input.largeNumberTextBox
   border:0px;
   font-weight:800;
 }
+
+
+.largeLabel
+{
+  font-size:3em;
+  font-weight:200;
+  color:#3366FF;
+  text-transform: uppercase;
+  width: 30%;
+}
