@@ -1,0 +1,12 @@
+# Site settings
+title: Life, Universe & Everything.
+email: sajay@live.com
+description: > # this means to ignore newlines until "baseurl:"
+  Life is full of experiments as long as you keep asking the right questions.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://kattassery.com" # the base hostname & protocol for your site
+twitter_username: sajaya
+github_username:  sajayantony
+
+# Build settings
+markdown: kramdown
