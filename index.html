@@ -19,7 +19,7 @@ layout: default
   </ul> -->
 
 
-  {% assign pages = site.experiments | sort:"weight"  %}
+  {% assign pages = site.experiments  %}
   <ul>
     {% for p in pages %}
     <li>
@@ -29,6 +29,14 @@ layout: default
     </li>
     {% endfor %}
   </ul>
+
+  <h1 class="page-heading">Games</h1>
+
+  <ul>
+    <li>
+      <a href="http://curran.github.io/HTML5Examples/mobile/iPadAirHockey/index.html">IPad  Air Hockey</a>
+    </li>
+  <ul>
 
   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 

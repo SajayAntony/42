@@ -10,3 +10,6 @@ github_username:  sajayantony
 
 # Build settings
 markdown: kramdown
+collections:
+  experiments:
+    output: true

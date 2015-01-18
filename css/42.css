@@ -1,16 +1,16 @@
 input.largeNumberTextBox
 {
-  font-size:5em;
+  font-size:3em;
   border:0px;
   font-weight:800;
   display:inline-block;
-  margin-top: -10px;  
+  margin-top: -10px;
 }
 
 
 .largeLabel
 {
-  font-size:3em;
+  font-size:2em;
   font-weight:200;
   color:#3366FF;
   text-transform: uppercase;
